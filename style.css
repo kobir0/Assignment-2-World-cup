@@ -85,6 +85,10 @@ body {
 
 /* Middle-banner --------------
 -------------------------------*/
+.Middle-Buttons {
+    position: sticky;
+    top: 0px;
+}
 
 #blog {
     background-color: indianred;
@@ -99,6 +103,8 @@ body {
     padding-left: 48px;
     padding-top: 45px;
 
+
+
 }
 
 .Middle-Buttons button {
@@ -111,6 +117,12 @@ body {
     border: none;
     cursor: pointer;
 
+
+}
+
+.Middle-Buttons a {
+    text-decoration: none;
+    color: black;
 }
 
 .Middle-Right {
@@ -159,4 +171,83 @@ body {
 
 i {
     margin-left: 15px;
+}
+
+/* Upcoming-matches---------- */
+.png {
+    width: 92px;
+    height: 56px;
+}
+
+.vs {
+    font-size: 20px;
+    position: relative;
+    bottom: 18px;
+}
+
+.matches {
+    height: 240px;
+    width: 280px;
+    background-color: lightgray;
+    border-radius: 4%;
+    margin: 9px;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+/* Buttun-View-All --------*/
+.Button-ViewAll {
+    background-color: indianred;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 50%;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* footers -------------*/
+.footers {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    top: 500px;
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+.footers hr {
+    width: 80%;
+
+
+}
+
+.footers h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.footers li {
+    list-style: none;
+    padding-right: 30px;
+    color: aliceblue;
+}
+
+.footers ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footers h2 {
+    color: aliceblue;
+}
+
+.footers i {
+    color: lightgray;
+    justify-content: center;
 }
