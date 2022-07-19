@@ -23,6 +23,10 @@ body {
     cursor: pointer;
     height: 56px;
     width: 187px;
+    display: flex;
+    line-height: 1.8;
+
+
 }
 
 /* TopBanner--------------
@@ -32,7 +36,7 @@ body {
 
 .Banner {
 
-
+    display: flex;
     height: 646px;
     width: 1220px;
 
@@ -43,7 +47,7 @@ body {
     margin-left: 50px;
     border-radius: 2%;
     margin-top: 40px;
-    display: flex;
+
     margin-bottom: 120px;
 }
 
@@ -73,8 +77,20 @@ body {
     height: 100%;
 }
 
+.fa-angle-right {
+    font-size: 25px;
+    padding-top: 1px;
+
+}
+
 /* Middle-banner --------------
 -------------------------------*/
+
+#blog {
+    background-color: indianred;
+}
+
+
 .Middle-Buttons {
     background-color: rgb(22, 22, 22);
     height: 280px;
@@ -94,4 +110,53 @@ body {
     border-radius: 3%;
     border: none;
     cursor: pointer;
+
+}
+
+.Middle-Right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.Middle-Box {
+    height: 320px;
+    width: 280px;
+    background-color: lightgray;
+    border-radius: 4%;
+    margin: 9px;
+
+}
+
+.Middle-Box button {
+    display: block;
+    height: 30px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    cursor: pointer;
+    border: solid rgb(43, 42, 42) .4px;
+    padding-left: 15px;
+    margin-left: 15px;
+
+
+}
+
+.Middle-Box img {
+    height: 50%;
+    width: 100%;
+    border-radius: 4%;
+}
+
+.Middle-Box p {
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.Bottom-Info {
+    margin-left: 50px;
+}
+
+i {
+    margin-left: 15px;
 }
