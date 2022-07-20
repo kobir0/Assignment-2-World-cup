@@ -315,9 +315,8 @@ i {
     .Middle-Right {
         display: grid;
         grid-template-columns: 1fr;
-        position: relative;
-        left: 20%;
 
+        right: 100px;
 
     }
 
