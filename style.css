@@ -403,7 +403,8 @@ i {
     }
 
     .Button-ViewAll {
-        display: block;
+        position: relative;
+        left: 75%;
     }
 
 }
