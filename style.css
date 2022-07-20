@@ -128,7 +128,7 @@ body {
     background-color: indianred;
 }
 
-/* extra */
+/* Button */
 .middlebutton button {
     color: black;
     height: 60px;
@@ -147,7 +147,7 @@ body {
 
 .middlebutton {
 
-    background-color: rgb(22, 22, 22);
+    background-color: lightgray;
     height: 280px;
     width: 280px;
     border-radius: 4%;
@@ -348,4 +348,68 @@ i {
         height: fit-content;
     }
 
+}
+
+/* Pad-Device ---------------------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .Top {
+        height: 100%;
+        width: 100%;
+    }
+
+    .top-info {
+        width: 50%
+    }
+
+    .top-info h1 {
+        font-size: 45px;
+
+    }
+
+    .top-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .middlebutton {
+        display: flex;
+        height: 120px;
+        width: 100%;
+        position: relative;
+        right: 50px;
+        padding-left: 15%;
+        padding-right: 20%;
+    }
+
+    .middlebutton button {
+        position: relative;
+        top: 3px;
+        left: 2px;
+    }
+
+    #Middle {
+        display: block;
+    }
+
+    .Middle-Right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 8%;
+
+    }
+
+    #Box-9 {
+        display: none;
+    }
+
+    .Button-ViewAll {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width:993px) {
+    .Button-ViewAll {
+        display: none;
+    }
 }
